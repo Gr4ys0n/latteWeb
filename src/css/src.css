@@ -1,89 +1,98 @@
 @font-face {
-    font-family: Prompt;
-    src: url(/fonts/prompt.ttf);
-  }
+  font-family: Prompt;
+  src: url(/fonts/prompt.ttf);
+}
 @font-face {
-    font-family: Fredoka;
-    src: url(/fonts/fredoka.ttf);
+  font-family: Fredoka;
+  src: url(/fonts/fredoka.ttf);
 }
 
 html {
-   background-color: #221F30;
-   color: white;
- text-align: center;
-   display: flex;
-   justify-content: center;
-   margin: 0;
-   padding: 0;
+ background-color: #221F30;
+ color: white;
+text-align: center;
+ display: flex;
+ justify-content: center;
+ margin: 0;
+ padding: 0;
 }
 
 h1,h2,h3 {
-   font-family: "Prompt";
-   color: white;
-   margin-bottom: 20px; 
-   margin-top: 160px;
+ font-family: "Prompt";
+ color: white;
+ margin-bottom: 20px; 
+ margin-top: 160px;
 }
 
 h4,h5,p,a {
-    font-family: "Fredoka";
-   color: white;
-  }
+  font-family: "Fredoka";
+ color: white;
+}
 
 #proxyFrame {
-	border: none;
-	resize: both;
-    text-align: center;
-    justify-content: center;
+border: none;
+resize: both;
+  text-align: center;
+  justify-content: center;
 }
 
 .white {
-    justify-content: center, space-between;
-    font-family: "Gsans";
+  justify-content: center, space-between;
+  font-family: "Gsans";
 }
 
 #uv-address {
-      background-color: transparent;
-      border: 1.5px #ffffff solid;
-    border-radius: 12px;
-      padding: 12px;
+    background-color: transparent;
+    border: 1.5px #ffffff solid;
+  border-radius: 12px;
+    padding: 12px;
+  text-align: center;
+    color: black;
+    font-family: "Prompt";
+    background-color: white;
+    outline: none;
+    transition: hover .2s;
+    width: 500px;
+    padding-left: 40px;
+  }
+
+  .bookmarks {
+    background-color: transparent;
+    color: white;
+    padding: 10px 20px;
     text-align: center;
-      color: black;
-      font-family: "Prompt";
-      background-color: white;
-      outline: none;
-      transition: hover .2s;
-      width: 500px;
-    }
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 5px;
+    justify-content: space-between;
+  }
+  
+  .bookmarks img {
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+  }
 
-    .bookmarks {
-      background-color: transparent;
-      color: white;
-      padding: 10px 20px;
-      text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      font-size: 15px;
-      margin: 5px;
-      justify-content: space-between;
-    }
-    
-    .bookmarks img {
-      border-radius: 50px;
-      width: 50px;
-      height: 50px;
-    }
-
-    .bookmarks:hover {
-    transition: .3s;
-    }
+  .bookmarks img:hover {
+  transition: .3s;
+  transform: scale(1.1);
+  }
 
 .bookmarks p:hover {
-  transform: scale(1.1);
-  transition: .3s;
+transform: scale(1.1);
+transition: .3s;
 }
 
 .svg {
-  filter: invert(1);
-  width: 26px;
-  height: 26px;
+filter: invert(1);
+width: 30px;
+height: 30px;
+}
+
+.svg:hover {
+cursor: pointer;
+transform: scale(1.1);
+transition: .3s;
+filter: invert(.4);
 }
