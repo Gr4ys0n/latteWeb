@@ -1,0 +1,34 @@
+<html lang="en"><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>latteweb.</title>
+  <link href="/src/css/src.css" rel="stylesheet">
+  <script src="/uv/uv.bundle.js"></script>
+<script src="/uv/uv.config.js"></script>
+<script src="/baremux/index.js"></script>
+
+<script>
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("/uv/sw.js");
+    });
+}
+</script>
+</head>
+<body>
+  <br>
+  <select id="switcher">
+    <option value="">--Please Choose an Option--</option>
+    <option value="epoxy">Epoxy</option>
+    <option value="bare">Bare</option>
+</select>
+<br>
+  <iframe id="uv-iframe" class="uv-iframe">
+  <h1>latteweb.</h1>
+  <p>try using the input so this can work you dumb dumb</p>
+  </iframe>
+  <center>    
+    <input type="text" id="uv-address" placeholder="enter url here">
+  </center> 
+<script src="index.js"></script>
+</body></html>
