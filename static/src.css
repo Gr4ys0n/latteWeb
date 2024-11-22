@@ -91,15 +91,3 @@ transform: scale(1.1);
 transition: .3s;
 filter: invert(.4);
 }
-
-.uv-iframe {
-  position: absolute;
-    width: 100vw;
-    height: 90vh;
-    border: 0;
-    padding: 0;
-    margin: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #1e1e2e;
-}
