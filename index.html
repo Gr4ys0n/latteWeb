@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-  
-  <title>The Gaming Escape</title>
-  <link rel="icon" href="favicon.png">
-  <link rel="stylesheet" href="/src/styles.css">
-  <style>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gaming Escape</title>
+<style>
 
-    .headertext {
-      position: relative;
-      animation-name: slide;
-      animation-duration: 2s;
-      margin: 30px 0px;  
-    }
-     .all {
-  font-family: "Lexend", sans-serif;
-color: white;
-text-shadow: #000000 1px 0 10px;
-     }
-   body {
+body {
      margin: 0; 
      background-color: #000000;
-    
+     font-family: 'Lexend', sans-serif;
+     overflow: hidden; /* Hide scrollbars */
 }
-    .heading {
-      font-size: 30px;
-    }
-    
-    .links {
-      font-size: 25px;"
-    }
-    
-    a {
+.dot {
+    box-shadow: 0 0 150px 100px #00bbff;
+	border-radius: 50%;
+	height: 290px;
+	width: 290px;
+	background-image: radial-gradient(
+		farthest-corner at 50% 50%,
+		#ffffff, #009dff
+	);
+	background-blend-mode: multiply;
+	filter: blur(50px) contrast(1.1);
+	position: fixed;
+	transform: translate(-50%, -50%);
+	left: 50vw;
+	top: 100vh;
+	position: absolute;
+    z-index: -100;
+}
+ a {
   color: white;
   background-color: transparent;
   text-decoration: none;
@@ -43,9 +40,10 @@ text-shadow: #000000 1px 0 10px;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-family: 'Titan One', cursive;
+  font-family: 'Lexend', sans-serif;
   color: white;
   text-shadow: #000000 1px 0 10px;
+  box-shadow: 0 0 8px 3px #00bbff;
 }
 
 li {
@@ -61,51 +59,42 @@ li a {
 }
 
 li a:hover:not(.active) {
- background-color:  #00fffb;
+ background-color:  #00bbff;
 }
 
 .active {
-  background-color:  #00fffb;
-}
-      @keyframes slide {
-      0%  {up : -700px; top:0px;}
-      100%{up : 0px; top:0px;}
-    }
+  background-color:  #00bbff;
+  }
+ul {
+   display: block;
+  
+        }
+ul img {
+  height: 35px;
+  margin-right: 10px;
+  margin-top: 5px;
+  margin-down: 5px;
+  float:right;
+        }
 </style>
-      
-
-  
 </head>
-  
 <body>
-  
-  <ul>
+<ul>
   <li><a class="active" href="index.html">Home</a> </li>
   <li><a href="games.html">Games</a></li>
   <li><a href="apps.html">Apps</a></li>
   <li><a href="search.html">Search</a></li>
-</ul>
-
-
-  
-  <div class= "all">
-    
-  <center>
-    
-     <div class= "heading">
-        <div class= "headertext">
-  <h1 style=" margin: 30px 0px;">The Gaming Escape</h1>
-               </div> 
-     </div> 
-    
-    <p style="font-size: 25px; margin: 10px 10px">Website with many games and a fast web proxy.</p>
-     <div class="dot">
-     </div>
-    </div>
+  <img src= https://m.media-amazon.com/images/I/31NEE5DjnqL._AC_UF894,1000_QL80_.jpg> 
+  <li style="float:right"><a href="about.html">About</a></li>
+</ul> 
 
   
-   </div>
-  
+
+<div style="text-align:center">
+  <h1 style="color: white; font-size: 40px; margin: 10px; margin-top: 70px;">Welcome to</h1>
+  <h1 style="color: white; font-size: 70px; margin: 10px;">The Gaming Escape</h1>
+  <div class="dot"></div>
+</div>
+
 </body>
-  
-</html>
+</html> 
