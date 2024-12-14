@@ -1,21 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
 
-.blob {
-	box-shadow: 0 0 150px 100px #FFFFFF
+.dot {
+    box-shadow: 0 0 150px 100px #00ffa6;
 	border-radius: 50%;
 	height: 290px;
 	width: 290px;
 	background-image: radial-gradient(
 		farthest-corner at 50% 50%,
-		#ffffff,
-
+		#ffffff, #00fffb  
 	);
 	background-blend-mode: multiply;
 	filter: blur(50px) contrast(1.1);
 	position: fixed;
 	transform: translate(-50%, -50%);
-	left: 47vw;
+	left: 50vw;
 	top: 100vh;
 	position: absolute;
+    z-index: -100;
 }
 
