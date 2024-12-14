@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&display=swap');
+
 .blob {
 	box-shadow: 0 0 150px 100px var(--link-hover-color);
 	border-radius: 50%;
@@ -6,7 +8,7 @@
 	background-image: radial-gradient(
 		farthest-corner at 50% 50%,
 		#ffffff,
-		var(--dshadow3)
+
 	);
 	background-blend-mode: multiply;
 	filter: blur(50px) contrast(1.1);
@@ -16,3 +18,4 @@
 	top: 100vh;
 	position: absolute;
 }
+
