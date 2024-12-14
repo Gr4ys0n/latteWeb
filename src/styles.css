@@ -1,1 +1,18 @@
-
+.blob {
+	box-shadow: 0 0 150px 100px var(--link-hover-color);
+	border-radius: 50%;
+	height: 290px;
+	width: 290px;
+	background-image: radial-gradient(
+		farthest-corner at 50% 50%,
+		#ffffff,
+		var(--dshadow3)
+	);
+	background-blend-mode: multiply;
+	filter: blur(50px) contrast(1.1);
+	position: fixed;
+	transform: translate(-50%, -50%);
+	left: 47vw;
+	top: 100vh;
+	position: absolute;
+}
