@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@500&family=Nunito:ital@0;1&display=swap');
 body {
      margin: 0; 
-     background-color: #ffffff;
+     background-color: #000000;
      font-family: 'Lexend', sans-serif;
      overflow: hidden; /* Hide scrollbars */
 }
