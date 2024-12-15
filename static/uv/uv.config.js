@@ -1,5 +1,5 @@
 self.__uv$config = {
-    prefix: '/static/uv/service/',
+    prefix: 'https://static.99.135.156.178.clients.your-server.de/bare/',
     bare: 'https://bare.benrogo.net',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
